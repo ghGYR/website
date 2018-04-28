@@ -1,0 +1,76 @@
+@font-face {
+    /* font-properties */
+    font-family: gufeng;
+    src:url('../font/qigong.TTF'); /* IE9 */
+}
+p
+{
+  font-family:gufeng;
+  text-align:center;
+}
+
+.x-center
+{
+    width: 100%;
+    margin:0px  auto;
+    /*border:1px solid black;*/
+
+}
+.y-center
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+#context
+{
+
+}
+#bg
+{
+    z-index:0;
+    overflow: hidden;
+    height: 760px
+}
+div.part
+{
+   position:relative;
+   width:25%;
+   height:100%;
+   margin: 0px 4%;
+   float:left;
+   opacity: 0.5;
+   border:0px solid #F00;
+   transition: opacity 0.6s;
+   -webkit-transition: opacity 0.6s;
+   -ms-transition: opacity 0.6s;
+   /*border:1px solid red;*/
+   /* -webkit-animation: out 0.2s linear; /* Safari 与 Chrome */
+}
+.full
+{
+    width:100%;
+   position: absolute;
+   margin:0px 0px;
+   top:0px;
+   left:0px;
+  margin:0px 0px;
+  padding: 0px 0px;
+}
+.part-title
+{
+    position:absolute;
+    text-align:center;
+    color:black;
+    font-family:gufeng;
+    font-size:30px;
+    /*bottom:20px;*/
+    width:100%;
+}
+div.part:hover {
+     opacity:1.0;
+    /* animation: in 0.2s;*/
+   /* -webkit-animation: in 0.2s linear; /* Safari 与 Chrome */
+    /*animation-fill-mode : forwards ;*/
+  }

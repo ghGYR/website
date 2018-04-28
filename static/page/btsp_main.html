@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8"> 
+   <title>Bootstrap 实例 - 响应式的列重置</title>
+   <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css"> 
+   <link rel="stylesheet" href="../style/animation.css">  
+   <link rel="stylesheet" href="../style/main.css"> 
+   <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+   <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div id="myCarousel" class="carousel slide" data-wrap="false">
+          <div class="carousel-inner">
+            <div class="item active">
+                <div class="container">
+                         <div class="row" id="progress1">  
+                               <div class="center-block" style="height: 200px;">
+                               </div>
+                         </div>
+                         <div class="row" id="top" > 
+                                  <div class="center-block" style="width:400px;">
+                                   <img src="../image/my/my.png" style="width:72px;height:72px;" class=btn" btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                                   <img src="../image/my/zhang.png" style="width:64px;height:64px;" >
+                                   <img src="../image/my/shi.png" style="width:148px;height:163px;">
+                                    </div>
+                          </div>
+                </div>
+                <div class="container">
+                         <div class="row" id="progress2">  
+                               <div class="center-block" style="height: 100px;">
+                               </div>
+                         </div>
+                         <div class="row" id="middle" >
+                                    <div class="center-block" style="width:650px;">
+                                                      <div class="part" t="影像记录" onClick='$("#myCarousel").carousel("next");'  onmouseenter="show_title(this) ">
+                                                          <img src="../image/my/ying.png" style="width:134px;height:134px;" >
+                                                      </div>
+                                                      <div class="part" t="技术分享" onClick='$("#myCarousel").carousel("next");' onmouseenter="show_title(this)">
+                                                          <img src="../image/my/shu.png" style="width:134px;height:134px;" >
+                                                      </div>
+                                                      <div class="part" t="生活随笔" onClick='$("#myCarousel").carousel("next");' onmouseenter="show_title(this)">
+                                                          <img src="../image/my/lun.png" style="width:134px;height:134px;">
+                                                      </div>
+                                   
+                                   </div>
+                                   <script  src="../script/part.js"></script>
+                         </div>
+                 </div>
+            </div>
+            <div class="item">
+                   <div class="container">
+                         <div class="row" id="progress1">  
+                               <div class="center-block" style="height: 200px;">
+                               </div>
+                         </div>
+                         <div class="row" id="top" > 
+                                  <div class="center-block" style="width:400px;">
+                                   <img src="../image/my/my.png" style="width:72px;height:72px;" class=btn" btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                                   <img src="../image/my/zhang.png" style="width:64px;height:64px;" >
+                                   <img src="../image/my/shi.png" style="width:148px;height:163px;">
+                                    </div>
+                          </div>
+                <div class="container">
+                         <div class="row" id="progress2">  
+                               <div class="center-block" style="height: 100px;">
+                               </div>
+                         </div>
+                         <div class="row" id="middle" >
+                                    <div class="center-block" style="width:650px;">
+                                                      <div class="part" t="影像记录" onClick='$("#myCarousel").carousel("next");'  onmouseenter="show_title(this) ">
+                                                          <img src="../image/my/ying.png" style="width:134px;height:134px;" >
+                                                      </div>
+                                                      <div class="part" t="技术分享" onClick='$("#myCarousel").carousel("next");' onmouseenter="show_title(this)">
+                                                          <img src="../image/my/shu.png" style="width:134px;height:134px;" >
+                                                      </div>
+                                                      <div class="part" t="生活随笔" onClick='$("#myCarousel").carousel("next");' onmouseenter="show_title(this)">
+                                                          <img src="../image/my/lun.png" style="width:134px;height:134px;">
+                                                      </div>
+                                   
+                                   </div>
+                                   <script  src="../script/part.js"></script>
+                         </div>
+                 </div>
+            </div>
+          </div>
+  </div>         
+<!-- 模态框（Modal）about_me -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog aboutme">
+         <img src="../image/my/weixin.png" style="width:180px; height:180px"><p>mail:gugegyr@gmail.com</p>
+      </div>
+</div><!-- /.modal -->
+</body>
+</html>

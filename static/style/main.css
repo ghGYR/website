@@ -1,0 +1,134 @@
+@font-face {
+    /* font-properties */
+    font-family: gufeng;
+    src:url('../font/qigong.TTF'); /* IE9 */
+}
+      body
+      {
+          
+      }
+      .aboutme
+      {
+          width: 200px;
+          height: 220px;
+          position: absolute; 
+          left: 50%;
+          top: 50%;
+          margin-left: -100px;
+          margin-top: -110px;
+          padding: 10px 10px;
+          background-color: white;
+          border-radius: 10px 10px 10px 10px;
+      }
+
+
+div.part
+{
+   position:relative;
+   width:150px;
+   height:240px;
+   margin: 8px 33px;
+   float:left;
+   opacity: 0.5;
+   border:0px solid #F00;
+   transition: opacity 0.6s;
+   -webkit-transition: opacity 0.6s;
+   -ms-transition: opacity 0.6s;
+   /* -webkit-animation: out 0.2s linear; /* Safari 与 Chrome */
+}
+div.part:hover {
+     opacity:1.0;
+    /* animation: in 0.2s;*/
+   /* -webkit-animation: in 0.2s linear; /* Safari 与 Chrome */
+    /*animation-fill-mode : forwards ;*/
+  }
+
+  div.part_click {
+      animation: in 0.2s linear ;
+    -webkit-animation: in 0.2s linear ; /* Safari 与 Chrome */
+  }
+  div.part_leave{
+    animation: out 0.3s;
+    -webkit-animation: out 0.3s linear;
+  }
+
+
+      .bg-pic
+      {
+         width:180px;
+         height:220px;
+      }
+p
+{
+  font-family:gufeng;
+  text-align:center;
+}
+.part-title
+{
+    position:absolute;
+    text-align:center;
+    color:black;
+    font-family:gufeng;
+    font-size:30px;
+    /*bottom:20px;*/
+    width:140px;
+}
+
+img.myhead:hover
+{
+     animation: big 0.2s linear forwards ;
+    -webkit-animation: big 0.2s linear forwards; /* Safari 与 Chrome */
+}
+
+img.myhead:active
+{
+     animation: big 0.2s linear forwards ;
+    -webkit-animation: big 0.2s linear forwards; /* Safari 与 Chrome */
+}
+
+.scale_in
+{
+ animation: in 0.5s linear forwards ;
+  -webkit-animation: in 0.5s linear forwards; /* Safari 与 Chrome */
+}
+#bg
+{
+   width: 1200px;
+   position: absolute;
+   margin:0px auto;
+   z-index: 0;
+  margin:0px 0px;
+  padding: 0px 0px;
+  overflow-x: hidden; 
+   /*border:2px solid black;*/
+ 
+}
+#context
+{
+   width:100%;
+   height:100%;
+   position: relative;
+   margin:0px auto;
+   z-index: 1;
+   top:0px;
+  margin:0px 10px;
+  padding: 10px 10px;
+   /*border:2px solid black;*/
+}
+#player
+{
+  /*border:2px solid green;*/
+  width: 100%;
+  position: absolute;
+  bottom:0px;
+  margin:0px 0px;
+  padding: 0px 0px;
+}
+#musc-visual
+{
+   width: 100%;
+  position: absolute;
+  bottom:0px;
+  margin:0px 0px;
+  padding: 0px 0px;
+}

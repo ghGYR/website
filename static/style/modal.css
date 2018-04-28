@@ -1,0 +1,37 @@
+.mask {   
+             position: absolute;   /* 使用绝对定位或固定定位  */
+             left: 0px;    
+             top: 0px;
+             width:100%;
+             height:100%;
+             text-align:center;
+             z-index: 10;
+            background-color:black;   /* 背景半透明 */
+             opacity:0;
+        }
+        /* 模态框样式 */
+.modal-data{
+            position: absolute;
+             z-index: 11;
+            left: 50%;
+            top: 20%;
+             width:200px;
+             margin: auto auto;
+             background-color: white;
+             border:1px solid #000;
+             padding:15px;
+             text-align:center;
+             opacity:0;
+        }
+.mask-fadein
+{
+    animation: mask-fadein 0.2s ease forwards;
+  -webkit-animation: mask-fadein 0.2s ease forwards; /* Safari 与 Chrome */
+}
+.modal-dropin
+{
+     animation:modal-dropin 0.2s ease forwards ;
+  -webkit-animation: modal-dropin 0.2s ease forwards; /* Safari 与 Chrome */
+  animation-delay:0.1s;
+-webkit-animation-delay:0.1s; /* Safari 和 Chrome */
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>食尧阁</title>
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/style/animation.css">
+    <link rel="stylesheet" href="static/style/main.css">
+    <link rel="stylesheet" href="static/style/yinxiang.css">
+    <link rel="stylesheet" href="static/style/jishu.css">
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="static/script/main.js"></script>
+</head>
+
+<body>
+    <!--首页-->
+    <div id="bg">
+        <!--
+                    <div id="player">
+                        <audio id="music" src="static/voice/test3.mp3" autoplay="autoplay">Your browser does not support the audio element.</audio>
+                        <canvas id="musc-visual" width=1920 height=1080>81%</canvas>
+                    </div>
+                    <script type="text/javascript" src="static/script/player.js"></script>
+                -->
+        <!--
+                </div id="video">
+                <video src="static/image/bg.mp4" controls="controls" autoplay="autoplay" loop="loop" style="opacity: 0.7">
+                    您的浏览器不支持 video 标签。
+                </video>
+                <div>
+                -->
+    </div>
+    <div id="context" style="width:100%;z-index: 1; position:absolute;"></div>
+    <!-- 模态框 about_me -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog aboutme">
+            <img src="static/image/my/weixin.png" style="width:180px; height:180px">
+            <p>mail:gugegyr@gmail.com</p>
+        </div>
+    </div>
+    <!-- /.modal -->
+    <script>
+    $("#context").load("static/page/home.html");
+    </script>
+</body>
+
+</html> 

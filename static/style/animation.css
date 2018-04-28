@@ -1,0 +1,95 @@
+@-webkit-keyframes in/* Safari 与 Chrome */
+{
+    0%   { -moz-transform: scale(1.00,1.00);
+    -webkit-transform: scale(1.00,1.00);
+    -o-transform: scale(1.00,1.00);
+}
+    40% { -moz-transform: scale(1.2,1.2);
+    -webkit-transform: scale(1.2,1.2);
+    -o-transform:scale(1.2,1.2);
+  }
+    100% { -moz-transform: scale(1.0,1.0);
+    -webkit-transform: scale(1.0,1.0);
+    -o-transform: scale(1.0,1.0);
+}
+}
+ 
+
+@-webkit-keyframes  out/* Safari 与 Chrome */
+{
+    40%   { -moz-transform: scale(0.9,0.9);
+    -webkit-transform: scale(0.9,0.9);
+    -o-transform: scale(0.9,0.9);
+    opacity:1.0;
+}
+    100% {-moz-transform: scale(1.00,1.00);
+    -webkit-transform: scale(1.00,1.00);
+    -o-transform: scale(1.00,1.00);
+    opacity:0;
+}
+}
+@keyframes roating
+{
+0%{-webkit-transform:rotate(0deg);} 
+100%{-webkit-transform:rotate(360deg);} /* Safari 和 Chrome */
+}
+@keyframes big
+{
+0%{-webkit-transform:scale(1.0,1.0);} 
+50%{-webkit-transform:scale(1.2,1.2);} /* Safari 和 Chrome */
+70%{-webkit-transform:scale(1.1,1.1);} /* Safari 和 Chrome */
+}
+
+@keyframes fadein
+{
+0%{opacity: 0;} 
+20%{opacity: 0;} 
+60%{opacity: 0.5;}  /* Safari 和 Chrome */
+100%{opacity:1.0;}  /* Safari 和 Chrome */
+}
+
+@keyframes fadeout
+{
+0%{opacity: 1.0;} 
+40%{opacity: 0.5;}  /* Safari 和 Chrome */
+80%{opacity:0;}  /* Safari 和 Chrome */
+100%{opacity:0;}  /* Safari 和 Chrome */
+}
+
+@keyframes bigin
+{
+0%{-webkit-transform:scale(1.0,1.0);} 
+50%{-webkit-transform:scale(1.2,1.2);} /* Safari 和 Chrome */
+100%{-webkit-transform:scale(1.1,1.1);} /* Safari 和 Chrome */
+}
+@keyframes smallout
+{
+0%{-webkit-transform:scale(1.1,1.1);} 
+60%{-webkit-transform:scale(0.9,0.9);} /* Safari 和 Chrome */
+100%{-webkit-transform:scale(1.0,1.0);} /* Safari 和 Chrome */
+}
+@keyframes modal-dropin
+{
+0%{transform: translate(-50%,-50%);;opacity: 0} 
+100%{transform: translate(-50%,0);;opacity:1.0;} /* Safari 和 Chrome */
+}
+@keyframes mask-fadein
+{
+0%{    
+           opacity:0;   /* 背景半透明 */} 
+100%{
+            opacity:0.8;   /* 背景半透明 */} /* Safari 和 Chrome */
+}
+@keyframes modal-dropout
+{
+
+0%{transform: translate(-50%,0);;opacity:1.0;} /* Safari 和 Chrome */
+100%{transform: translate(-50%,-50%);;opacity: 0} 
+}
+@keyframes mask-fadeout
+{
+0%{
+            opacity:0.8;   /* 背景半透明 */} /* Safari 和 Chrome */
+100%{    
+            opacity:0;   /* 背景半透明 */} 
+}

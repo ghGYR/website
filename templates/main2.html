@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>食尧阁</title>
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/style/animation.css">
+    <link rel="stylesheet" href="static/style/main.css">
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="static/script/part.js"></script>
+</head>
+
+<body>
+    <!-- 轮播 -->
+    <div id="myCarousel" class="carousel slide" data-wrap="false">
+        <div class="carousel-inner">
+            <!--首页-->
+            <div class="item active" id="first_page">
+            </div>
+            <!--next_page-->
+            <div class="item" id="next_page">
+            </div>
+        </div>
+    </div>
+    <!-- 模态框 about_me -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog aboutme">
+            <img src="static/image/my/weixin.png" style="width:180px; height:180px">
+            <p>mail:gugegyr@gmail.com</p>
+        </div>
+    </div>
+    <!-- /.modal -->
+<script>
+$("#first_page").load("static/page/home.html");
+</script>
+</body>
+
+
+</html>

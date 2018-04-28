@@ -1,0 +1,15 @@
+@keyframes  up
+{
+0%{-webkit-transform:scale(0.9,0.9);
+    top:400px;} 
+60%{-webkit-transform:scale(1.1,1.1);
+    top:0px;} /* Safari 和 Chrome */
+100%{-webkit-transform:scale(1.0,1.0);} /* Safari 和 Chrome */
+}
+
+.upin
+{
+position: relative;
+ animation: up 0.5s linear forwards ;
+  -webkit-animation: up 0.5s linear forwards; /* Safari 与 Chrome */
+}
